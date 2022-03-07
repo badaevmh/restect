@@ -894,6 +894,9 @@ section {
     font-size: 6px;
   }
 
+    .intro__img {
+    max-width: 49rem;
+  }
   .section__title {
     font-size: 6rem;
     text-align: center;
@@ -915,6 +918,10 @@ section {
 @media (max-width: 425px) {
   :root {
     font-size: 5.5px;
+  }
+  
+      .intro__img {
+    max-width: 45rem;
   }
 
   .full-services__list-link {
